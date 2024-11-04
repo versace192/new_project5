@@ -2,10 +2,10 @@ document.addEventListener("DOMContentLoaded", function() {
     new Swiper(".top__swiper", {
         // Optional parameters
         effect: 'fade',
-        // autoplay: {
-        //     delay: 3500,
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+        },
         pagination: {
             el: ".swiper-pagination",
         },
